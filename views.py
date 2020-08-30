@@ -14,3 +14,6 @@ def login(request):
 
 def reg(request):
 	return redirect("reg")
+
+def add_cart(request):
+	return HttpResponse("add_cart")
