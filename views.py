@@ -7,3 +7,6 @@ def index(request):
 	:return:
 	"""
 	return HttpResponse("index")
+
+def login(request):
+	return redirect("/index")
